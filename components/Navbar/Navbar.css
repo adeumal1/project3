@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.list-nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.list-nav ul li {
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: 10px;
+}
+
+.list-nav ul li a:hover{
+    color: var(--color-primary);
+    opacity: 0.9;
+    transition: 0.15s;
+}
+
+i {
+    color: var(--color-primary);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#menu {
+    position: absolute;
+    font-size: 30px;
+    right: 0;
+    margin-right: 20px;
+}

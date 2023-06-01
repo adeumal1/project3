@@ -1,0 +1,97 @@
+
+.main-home__img {
+    position: relative;
+    max-height: 550px; 
+    background: rgb(255,111,0);
+    background: radial-gradient(circle, rgba(255,111,0,1) 0%, rgba(242,152,69,1) 100%); 
+    border-radius: 25px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+
+.main-home {
+    align-content: center;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 30px;
+    background: rgb(195, 192, 190);
+}
+
+.main-home__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-main {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.button-contact__main a {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    background: var(--color-button-contact);
+    border-radius: 100px;
+    color: var(--color-light);
+    border: none;
+    outline: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-contact__main a:hover{
+    background: #333333;
+}
+
+.button-sn__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.button-sn__main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+ }
+
+.button-sn__main a i {
+   font-size: 25px;
+   color: black;
+}
+
+.btn-github:hover {
+    background: rgb(22, 24, 50);
+}
+
+.btn-instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.btn-twitter:hover {
+    background: #00acee; 
+}
+
+.btn-linkedin:hover {
+    background: #0e76a8; 
+}
+
+.btn-github:hover i, .btn-instagram:hover i, .btn-twitter:hover i, .btn-linkedin:hover i {
+    color: white;
+}
