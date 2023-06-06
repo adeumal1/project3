@@ -17,7 +17,6 @@ img {
 
 
 .main-home {
-    align-content: center;
     border-radius: 25px;
     margin: 15px;
     padding: 30px;
@@ -27,8 +26,7 @@ img {
 .main-home__content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .title-main {

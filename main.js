@@ -5,7 +5,7 @@ import { hamburgerResponsive} from "./components/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
 import { Projects } from "./pages/Projects/Projects";
 import { getTitle } from "./components/TitleChange/TitleChange";
-
+import { Footer } from "./components/Footer/Footer";
 
 getTitle();
 
@@ -19,4 +19,7 @@ linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
 
 Home();
+
+const footer = document.querySelector("footer");
+footer.innerHTML = Footer();
 
