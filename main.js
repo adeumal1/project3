@@ -19,3 +19,4 @@ linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
 
 Home();
+

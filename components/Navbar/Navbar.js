@@ -23,7 +23,8 @@ export const hamburgerResponsive = () => {
     const hamburger = document.querySelector("#menu");
     const main = document.querySelector("main");
     main.style.display = "block";
-    hamburger.addEventListener("click", () => {
+
+    const toggle = () => {
         if (list.style.display === "none") {
             list.style.display = "block";
             main.style.display = "none";
@@ -31,5 +32,14 @@ export const hamburgerResponsive = () => {
             list.style.display = "none";
             main.style.display = "block";
         }
-    });
+    };
+
+    const home = document.querySelector("#homelink");
+    const experiencelink = document.querySelector("#experiencelink");
+    const projectslink = document.querySelector("#projectslink");
+    hamburger.addEventListener("click", toggle);
+    home.addEventListener("click", toggle);
+    experiencelink.addEventListener("click", toggle);
+    projectslink.addEventListener("click", toggle);
 };
+
