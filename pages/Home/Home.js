@@ -8,7 +8,7 @@ export const Home = () => {
         <div class="main-home__img">
             <img src="/img/avatar.png" alt="avatar"></img> 
         </div>
-        <div class="main-home">s
+        <div class="main-home">
             <div class="main-home__content">
                 <span class="title-main">Hello, I’m Aleix, a website Designer With 2 years of experience.</span>     
                 <p>I care a lot about using design for positive impact. and enjoy creating user-centric, delightful, and human experiences.</p>
