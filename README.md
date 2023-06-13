@@ -7,11 +7,11 @@ Dejo el enlace de la página desplegada en Netlify: [Portfolio-AleixDeumal](http
 
 ## VITE
 He creado diferentes carpetas: 
-    - componentes: reutilizar html y creacion de funciones sobre el mismo codigo.
-    - data: cracion de objectos.
-    - pages: links y contenido de las paginas.
-    - public: imagenes y svg.
-    - utils: funciones de cambio de paginas.
+    1. componentes: reutilizar html y creacion de funciones sobre el mismo codigo.
+    1. data: cracion de objectos.
+    1. pages: links y contenido de las paginas.
+    1. public: imagenes y svg.
+    1. utils: funciones de cambio de paginas.
     
 ## HTML5 y CSS
 
