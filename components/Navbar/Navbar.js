@@ -26,7 +26,8 @@ export const hamburgerResponsive = () => {
     main.style.display = "block";
     
     const toggle = () => {
-        if (screen.width < 768) {
+        console.log();
+        if (window.innerWidth < 768) {
             if (list.style.display === "none") {
                 list.style.display = "block";
                 main.style.display = "none";
