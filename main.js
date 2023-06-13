@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { hamburgerResponsive} from "./components/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
 import { Projects } from "./pages/Projects/Projects";
+import { Experience } from "./pages/Experience/Experience";
 import { getTitle } from "./components/TitleChange/TitleChange";
 import { Footer } from "./components/Footer/Footer";
 
@@ -17,6 +18,8 @@ hamburgerResponsive();
 linkPage("#homelink", Home);
 
 linkPage("#projectslink", Projects);
+
+linkPage("#experiencelink", Experience);
 
 Home();
 

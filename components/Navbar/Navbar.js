@@ -19,12 +19,12 @@ export const Navbar = () => `
 
 export const hamburgerResponsive = () => {
     const list = document.querySelector(".list-nav");
-    list.style.display = "none";
     const hamburger = document.querySelector("#menu");
     const main = document.querySelector("main");
     const footer = document.querySelector("footer");
+    list.style.display = "none";
     main.style.display = "block";
-
+    
     const toggle = () => {
         if (list.style.display === "none") {
             list.style.display = "block";
@@ -36,7 +36,7 @@ export const hamburgerResponsive = () => {
             footer.style.display = "block";
         }
     };
-
+    
     const home = document.querySelector("#homelink");
     const experiencelink = document.querySelector("#experiencelink");
     const projectslink = document.querySelector("#projectslink");

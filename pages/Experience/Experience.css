@@ -1,0 +1,9 @@
+.container_experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience {
+    
+}

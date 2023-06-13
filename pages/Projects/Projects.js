@@ -12,8 +12,9 @@ main.innerHTML = `
 </section>`;
 const container = document.querySelector(".projects-container");
 for (const project of projects) {
-const figure = document.createElement("figure");
-figure.innerHTML = ProjectCard(project);
-container.appendChild(figure);
+const div = document.createElement("div");
+div.classList.add("figure");
+div.innerHTML = ProjectCard(project);
+container.appendChild(div);
 }
 };

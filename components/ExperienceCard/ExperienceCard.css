@@ -1,0 +1,10 @@
+.experience-card {
+        border-radius: 25px;
+        margin: 15px;
+        padding: 30px;
+        background: rgb(195, 192, 190);
+}   
+
+.experience-card h2 {
+    font-weight: 500;
+}   

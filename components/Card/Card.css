@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .project-card h4 {
@@ -47,4 +48,14 @@ figure {
 
 .project-card a {
     color: var(--color-light);
+}
+
+.figure {
+    width: 93%;
+}
+@media only screen and (min-width: 760px) {
+    .figure {
+        width: calc(50% - 20px);
+        margin: 10px 10px;
+    }
 }

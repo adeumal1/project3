@@ -17,6 +17,8 @@ img {
 
 
 .main-home {
+    display: flex;
+    flex-direction: column;
     border-radius: 25px;
     margin: 15px;
     padding: 30px;
@@ -26,7 +28,6 @@ img {
 .main-home__content {
     display: flex;
     flex-direction: column;
-    
 }
 
 .title-main {
@@ -92,4 +93,45 @@ img {
 
 .btn-github:hover i, .btn-instagram:hover i, .btn-twitter:hover i, .btn-linkedin:hover i {
     color: white;
+}
+
+
+@media only screen and (min-width: 760px) {
+    .main-home__content2 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .button-contact__main a{
+        padding-left: 40px;
+        padding-right: 40px;
+        white-space: nowrap;
+    }
+
+    .button-sn__main {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button-sn__main a{
+        margin-left: 20px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .main-home {
+        justify-content: space-between;
+        max-height: 500px;
+    }
+
+    .main-home__img img {
+       height: 100%;
+       object-fit: cover;
+       max-height: 500px;
+    }
 }
