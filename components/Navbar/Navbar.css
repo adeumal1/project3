@@ -22,11 +22,14 @@
     transition: 0.15s;
 }
 
-i {
+.logo i {
     color: var(--color-primary);
+    margin-right: 8px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
     font-weight: 600;
     white-space: nowrap;
@@ -35,7 +38,7 @@ i {
 
 #menu {
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
     right: 0;
     margin-right: 20px;
 }
@@ -46,7 +49,24 @@ i {
     }
 
     .list-nav {
-        display: block;
+        display: block !important;
+    } 
+
+    .navbar {
+        flex-direction: row;
     }
 
+    .list-nav ul {
+        display: flex;
+        margin: 0;
+    } 
+
+    .list-nav ul li {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 3px;
+        margin-left: 50px;
+    } 
+   
 }

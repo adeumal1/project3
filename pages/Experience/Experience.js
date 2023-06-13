@@ -13,6 +13,7 @@ export const Experience = () => {
     const container = document.querySelector(".container_experience");
     for (const job of experience) {
     const div = document.createElement("div");
+    div.classList.add("cont");
     div.innerHTML = ExperienceCard(job);
     container.appendChild(div);
     }

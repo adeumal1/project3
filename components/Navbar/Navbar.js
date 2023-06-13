@@ -26,14 +26,16 @@ export const hamburgerResponsive = () => {
     main.style.display = "block";
     
     const toggle = () => {
-        if (list.style.display === "none") {
-            list.style.display = "block";
-            main.style.display = "none";
-            footer.style.display = "none";
-        } else {
-            list.style.display = "none";
-            main.style.display = "block";
-            footer.style.display = "block";
+        if (screen.width < 768) {
+            if (list.style.display === "none") {
+                list.style.display = "block";
+                main.style.display = "none";
+                footer.style.display = "none";
+            } else {
+                list.style.display = "none";
+                main.style.display = "block";
+                footer.style.display = "block";
+            }
         }
     };
     
